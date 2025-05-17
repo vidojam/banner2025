@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rotating Banner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="banner" class="banner hidden">
+    <div id="scrollText" class="scroll-text">This just the beginning of more</div>
+  </div>
+
+  <div class="content">
+    <h2>Enter Banner Messages</h2>
+    <div class="input-section">
+      <input type="text" id="bannerInput" placeholder="Type a message..." />
+      <button onclick="addBannerMessage()">Add Message</button>
+      <button onclick="startBanner()">Start Banner</button>
+      <button onclick="stopBanner()">Stop Scroll</button>
+
+      <button onclick="clearAllMessages()">Clear All</button>
+      
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
